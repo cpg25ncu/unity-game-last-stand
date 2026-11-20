@@ -40,7 +40,7 @@ The search found several related UI/VFX assets, but they are not full minimap sy
 | `Assets/Julhiecio TPS Controller/Textures/Component Icons/**` and item icons | Textures | Generic editor, component, inventory, or HUD icon artwork. | No | No | Art-only; no tracking logic. | Low as art only | Icons alone do not provide minimap behaviour. |
 
 ## Recommendation
-Postpone minimap implementation before submission.
+Postpone minimap implementation before release.
 
 JU TPS does not appear to include a ready-made minimap/radar system that can be dropped into `LS_Arena_01` safely. A real minimap would likely require a new project-owned camera, render texture, layers, blip components, enemy registration, and runtime-spawn integration. That is a higher-risk custom UI system at the current final polish stage.
 
@@ -57,7 +57,7 @@ A later minimap task should be project-owned and explicit:
 
 This should not modify JU TPS source assets.
 
-## If Not Recommended Before Submission
+## If Not Recommended Before Release
 Do not implement a full minimap from scratch unless spare time remains after final video/release work.
 
 Safer alternatives are:
@@ -65,5 +65,5 @@ Safer alternatives are:
 - Add optional enemy awareness indicators using a project-owned wrapper around the existing AI alert visual.
 - Keep the current HUD and rely on enemy pressure/audio/line-of-sight for navigation.
 
-## Coursework/Video Relevance
-The minimap audit supports submission readiness by showing that UI scope was assessed rather than added blindly. The current HUD and objective text already provide clear UI/statistics evidence, while avoiding a risky late-stage custom minimap protects runtime stability for the final video.
+## Demo Relevance
+The minimap audit supports release readiness by showing that UI scope was assessed rather than added blindly. The current HUD and objective text already provide clear UI/statistics evidence, while avoiding a risky late-stage custom minimap protects runtime stability for the final video.

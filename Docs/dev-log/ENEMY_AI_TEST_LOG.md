@@ -31,7 +31,7 @@
 - Knife test object path: `_Systems/AI_Test/MeleeVariant_Test/Enemy_Test_KnifeMelee`.
 - Knife spawn position: saved disabled at `(-8, 0, -134)` with rotation `(0, 220, 0)` after close-range validation.
 - Knife/blade weapon used: the configured JU TPS AI Attack demo right-hand `Katana` child with `MeleeWeapon` and `Damager` setup.
-- Weapon mapping note: Coursework001 describes a knife-based melee enemy. In the JU TPS implementation, that design role is represented by the AI Attack demo's configured Katana/blade melee enemy.
+- Weapon mapping note: the design document describes a knife-based melee enemy. In the JU TPS implementation, that design role is represented by the AI Attack demo's configured Katana/blade melee enemy.
 - Katana status: Katana remains intentionally unchanged as the armed close-range blade/knife melee implementation. Do not replace weapon references unless a functional error appears.
 - Knife movement result: pass with note. The enemy was stable and moved/rotated, but the far test position did not reliably close distance within the observation window. A close-range validation position near `Player_JUTPS` confirmed approach and attack behaviour.
 - Knife attack result: pass. The enemy used the blade melee setup at close range.

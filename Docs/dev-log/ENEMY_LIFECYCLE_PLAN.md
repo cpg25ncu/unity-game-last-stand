@@ -96,7 +96,7 @@ After Task 11, the user manually confirmed that wave enemies can spawn automatic
 - Health/ammo should drop from killed enemies.
 - Later implementation should inspect or reference the JU TPS AI Attack Demo health/ammo pickup and drop setup.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - C# code quality: project-owned bridge keeps WaveManager decoupled from JU TPS internals.
 - Game AI: enemy lifecycle now connects spawned AI enemies to wave progression.
 - Level progression: waves can move forward when enemies are removed/defeated.

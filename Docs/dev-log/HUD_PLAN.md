@@ -1,7 +1,7 @@
 # Last Stand HUD Plan
 
 ## Purpose
-The Last Stand HUD layer displays the runtime statistics needed for Coursework002 evidence while keeping the JU TPS default UI active as the base gameplay interface.
+The Last Stand HUD layer displays the runtime statistics the game needs while keeping the JU TPS default UI active as the base gameplay interface.
 
 ## Why HUD Is Separate From StatsManager
 `LastStandStatsManager` owns gameplay statistics. `LastStandHudController` only presents those values on screen. This keeps scoring, wave state, and survival time independent from UI layout and makes later HUD polish safer.
@@ -187,7 +187,7 @@ Task 22B validation confirmed the revised enemy text:
 - Health/ammo should drop from killed enemies.
 - Later implementation should inspect or reference the JU TPS AI Attack Demo health/ammo pickup and drop setup.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - UI/statistics: visible HUD for wave, enemies remaining, kills, score, survival time, FPS, health, and objective text.
 - Game mechanics: players can observe combat progress, enemy pressure, and scoring feedback.
 - C# code quality: separates stats, health reading, FPS tracking, and HUD presentation.

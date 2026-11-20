@@ -50,7 +50,7 @@ It validates simple data ranges in the Inspector and exposes `IsEligibleForWave(
 - Melee spawn points need NavMesh route checks to avoid enemies getting stuck or taking too long to engage.
 - Spawn points should avoid immediate unfair spawns inside the player's view unless the wave design explicitly calls for visible pressure.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - Level progression: spawn availability changes across early and later waves.
 - Content generation: future enemy generation can use controlled scene spawn points instead of arbitrary positions.
 - Game AI: melee and ranged roles support distinct approach and pressure behaviours.

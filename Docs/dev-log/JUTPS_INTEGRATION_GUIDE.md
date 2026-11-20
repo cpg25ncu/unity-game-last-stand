@@ -1,12 +1,12 @@
 # JU TPS Integration Guide for Last Stand
 
 ## Purpose
-JU TPS is used as the foundation for stable third-person shooter gameplay in Last Stand. It provides the controller, camera, weapon handling, aiming, shooting, reload, inventory, health/damage, animation, ragdoll, and AI foundations that the Coursework002 vertical slice can build on.
+JU TPS is used as the foundation for stable third-person shooter gameplay in Last Stand. It provides the controller, camera, weapon handling, aiming, shooting, reload, inventory, health/damage, animation, ragdoll, and AI foundations that the Last Stand vertical slice can build on.
 
-This project should use JU TPS for moment-to-moment player and enemy behaviour, while Last Stand custom systems focus on wave structure, progression, scoring, HUD extensions, pickups, objectives, and coursework evidence.
+This project should use JU TPS for moment-to-moment player and enemy behaviour, while Last Stand custom systems focus on wave structure, progression, scoring, HUD extensions, pickups, objectives, and project documentation.
 
 ## Project Rule
-Custom Coursework002 code must extend, configure, or integrate with JU TPS rather than replacing it. A separate movement, shooting, inventory, health, or AI stack should only be created if JU TPS cannot support the required feature after a small isolated test.
+Custom Last Stand code must extend, configure, or integrate with JU TPS rather than replacing it. A separate movement, shooting, inventory, health, or AI stack should only be created if JU TPS cannot support the required feature after a small isolated test.
 
 ## Folder Safety Rules
 - Custom scripts go under `Assets/_LastStand/Scripts`.
@@ -79,10 +79,10 @@ Last Stand custom systems handle:
 - Pickup rules
 - Win/lose/restart
 - Extraction objective
-- Coursework report/video evidence
+- Report and video documentation
 
 ## Content Generation Rules
-Coursework002 content generation will be implemented mainly as procedural/controlled wave generation:
+Last Stand content generation will be implemented mainly as procedural/controlled wave generation:
 - weighted enemy selection
 - spawn point selection
 - difficulty scaling across waves
@@ -93,12 +93,9 @@ The map itself will be manually selected/cropped from POLYGON Apocalypse demo co
 
 ## Documentation Rules
 Every feature task must update:
-- `Docs/coursework/REPORT_RECORD.md`
 - `Docs/DEVELOPMENT_LOG.md`
 - `Docs/TEST_LOG.md`
 - `Docs/AI_USAGE_LOG.md`
-
-Update `Docs/coursework/ASSESSMENT_MAPPING.md` when a feature provides evidence for a marking criterion.
 
 ## Git Rules
 - Do not use `git add .`.

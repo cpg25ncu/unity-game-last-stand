@@ -80,7 +80,7 @@ Safe next step:
 
 | Candidate prefab path | Description / likely use | AI type or observed components | Melee/ranged suitability | Recommended Last Stand role | Risks/manual setup |
 |---|---|---|---|---|---|
-| `Assets/Julhiecio TPS Controller/Demos/Demo Prefabs/AI/Zombie AI.prefab` | JU TPS zombie-style AI character with humanoid body, ragdoll, health, hitboxes, and alert indicator. | Root includes `JUCharacterController`, `JUHealth`, `DamageableBody`, `AdvancedRagdollController`, `JUInventory`, and `JU_AI_Zombie`. | Strong baseline melee reference. Includes hand hitboxes/damagers. | Fist-based melee reference and early validation source. | Validated as a first close-range enemy test, but final Coursework001-aligned enemy wrappers should come from configured AI Attack examples. |
+| `Assets/Julhiecio TPS Controller/Demos/Demo Prefabs/AI/Zombie AI.prefab` | JU TPS zombie-style AI character with humanoid body, ragdoll, health, hitboxes, and alert indicator. | Root includes `JUCharacterController`, `JUHealth`, `DamageableBody`, `AdvancedRagdollController`, `JUInventory`, and `JU_AI_Zombie`. | Strong baseline melee reference. Includes hand hitboxes/damagers. | Fist-based melee reference and early validation source. | Validated as a first close-range enemy test, but final design-aligned enemy wrappers should come from configured AI Attack examples. |
 | `Assets/Julhiecio TPS Controller/Demos/Demo Prefabs/AI/Patrol AI.prefab` | Armed patrol-style JU TPS AI character. | Root includes `JUCharacterController`, `JUHealth`, `DamageableBody`, `AdvancedRagdollController`, `JUInventory`, `JU_AI_PatrolCharacter`, and `JUInteractionSystem`; has nested `P226` weapon. | Ranged reference candidate. | Ranged enemy reference only. | The configured AI Attack gun example is preferred for the first Last Stand ranged prefab because it directly demonstrates attack behaviour. |
 | `Assets/Julhiecio TPS Controller/Demos/Demo Scenes/AI/Examples/Attack/AI Sample Attack.prefab` | JU TPS example AI for attack behaviour. | Root includes `JUCharacterController`, `JUHealth`, `DamageableBody`, `AdvancedRagdollController`, `JUInventory`, and `JU_AI_AttackActionExample`; includes nested `P226` and `Katana`. | Configured scene instances show fist, melee-weapon, and gun setups. | Preferred source for Last Stand fist-based melee, knife-based melee, and ranged wrappers. | Example instances may depend on demo-scene assumptions; validate wrappers in `LS_Arena_01`. |
 | `Assets/Julhiecio TPS Controller/Demos/Demo Scenes/AI/Examples/Escape/AI Sample Escape.prefab` | JU TPS example AI for escape behaviour. | Root includes `JUCharacterController`, `JUHealth`, `DamageableBody`, `AdvancedRagdollController`, `JUInventory`, `JU_AI_EscapeActionExample`, and `NavMeshObstacle`; includes nested `P226` and `Katana`. | Mixed capability but behaviour is escape-focused. | Reference only; not recommended for main zombie wave roles. | Behaviour goal does not match survival enemy pressure; may require demo-scene setup. |
@@ -94,7 +94,7 @@ Safe next step:
 
 2. Knife-based melee enemy
    - Source candidate: configured `AI Sample Attack Melee` instance from the AI Attack example scene.
-   - Melee-weapon pressure using the JU TPS AI Attack demo's configured Katana/blade setup for the Coursework001 knife-based melee enemy role.
+   - Melee-weapon pressure using the JU TPS AI Attack demo's configured Katana/blade setup for the design document's knife-based melee enemy role.
    - Intended as a higher-threat close-range enemy.
 
 3. Ranged enemy
@@ -131,7 +131,7 @@ Safe next step:
 - Later: create `WaveManager` and `SpawnDirector`.
 - Later: connect kills, score, wave state, and survival timing to `StatsManager` and `HUDPresenter`.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - Game AI: identifies JU TPS AI candidates and planned roles for melee and ranged enemy behaviours.
 - Game mechanics: prepares navigation and enemy pressure needed for survival combat.
 - Content generation: future wave/spawn system will use weighted enemy selection and spawn points.

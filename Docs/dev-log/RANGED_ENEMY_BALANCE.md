@@ -58,7 +58,7 @@ Task 17R manual validation note:
 ## Why Damage Was Not Changed First
 The playtest issue was mainly readability and engagement distance, not only raw damage. Reducing attack and shot range preserves the ranged enemy's role while giving the player a fairer chance to identify and respond to the threat.
 
-## Coursework / Video Relevance
+## Demo Relevance
 - Shows playtest feedback being used to tune enemy behaviour.
 - Keeps the ranged enemy challenging while making the final demo more readable.
 - Supports Game AI and game mechanics evidence by demonstrating role-specific enemy tuning.

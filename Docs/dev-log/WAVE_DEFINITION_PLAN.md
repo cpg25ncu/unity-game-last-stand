@@ -61,7 +61,7 @@ After playtest feedback, the five wave assets were shortened for final demo usab
 ## How This Supports Future WaveManager
 `WaveManager` can use wave order, start delay, intermission time, total enemy count, and extraction unlock flags to run the 5-wave survival loop. The data already describes when the final objective should become available.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - Level progression: five waves gradually increase enemy variety and pressure.
 - Content generation: enemy composition, weights, group sizes, and timing are data-driven.
 - Game AI: validated enemy roles are assigned to wave data.

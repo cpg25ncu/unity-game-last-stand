@@ -1,4 +1,4 @@
-// Initially generated with Codex assistance and intended for student review/modification.
+// Initially generated with Codex assistance, then reviewed and modified during integration.
 namespace LastStand.GameFlow
 {
     public enum GameFlowState

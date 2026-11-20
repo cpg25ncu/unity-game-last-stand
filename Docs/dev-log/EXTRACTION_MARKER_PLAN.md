@@ -63,5 +63,5 @@ Debug validation flags were restored to false after testing. Final scene setting
 - New extraction gameplay logic.
 - Wave, enemy, pickup, score, or player-controller changes.
 
-## Coursework/Video Relevance
+## Demo Relevance
 The marker improves final objective clarity. During the video or live demo, the player can now see where to go once extraction unlocks, making the win condition easier to demonstrate and explain.

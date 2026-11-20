@@ -1,7 +1,7 @@
 # Level Selection Plan - LS_Arena_01
 
 ## Purpose
-`LS_Arena_01` will be built from a cropped and controlled section of POLYGON Apocalypse demo content. This saves production time, keeps the environment visually strong, and still leaves the Coursework002 contribution focused on gameplay structure, JU TPS integration, waves, AI spawning, statistics, objectives, and polish.
+`LS_Arena_01` will be built from a cropped and controlled section of POLYGON Apocalypse demo content. This saves production time, keeps the environment visually strong, and still leaves the Last Stand contribution focused on gameplay structure, JU TPS integration, waves, AI spawning, statistics, objectives, and polish.
 
 The final scene should not reuse an oversized full demo map as-is. It should select a manageable combat area, copy or instance only the needed environment pieces into `Assets/_LastStand/Scenes/LS_Arena_01.unity`, and keep all custom systems under `Assets/_LastStand`.
 
@@ -9,7 +9,7 @@ The final scene should not reuse an oversized full demo map as-is. It should sel
 
 | Scene path | Description | Pros | Cons | Suitability score out of 5 |
 |---|---|---|---|---|
-| `Assets/Synty/PolygonApocalypse/Scenes/Demo_City_Universal_RenderPipeline.unity` | Complete URP apocalypse city demo with grouped `Buildings`, `Ground`, `Terrain`, `Props`, `Vehicles`, `Vehicles_Wrecked`, `Trees`, `DeadBodies`, `Weapons`, lighting, camera, and volume. | Best fit for Unity 6 URP-style project; strong urban survival theme; contains roadblocks, wrecked vehicles, buildings, cover, possible military/checkpoint clusters, and enough space to crop a compact arena. | Very large and dense; full map would be too much for Coursework002 if used directly; needs careful cropping and performance control. | 5 |
+| `Assets/Synty/PolygonApocalypse/Scenes/Demo_City_Universal_RenderPipeline.unity` | Complete URP apocalypse city demo with grouped `Buildings`, `Ground`, `Terrain`, `Props`, `Vehicles`, `Vehicles_Wrecked`, `Trees`, `DeadBodies`, `Weapons`, lighting, camera, and volume. | Best fit for Unity 6 URP-style project; strong urban survival theme; contains roadblocks, wrecked vehicles, buildings, cover, possible military/checkpoint clusters, and enough space to crop a compact arena. | Very large and dense; full map would be too much for this project if used directly; needs careful cropping and performance control. | 5 |
 | `Assets/Synty/PolygonApocalypse/Scenes/Demo_City_Standard_RenderPipeline.unity` | Standard render pipeline version of the same city demo. | Same layout benefits as the URP city scene; good fallback if rendering setup requires it. | Less suitable than URP variant for the current configured project; same size/complexity risks. | 4 |
 | `Assets/Synty/PolygonApocalypse/Scenes/Demo_Bunker.unity` | Small bunker/interior-style demo with props, building pieces, point lights, spotlights, hospital beds, toilets, and background elements. | Strong military/evacuation mood; compact; clear boundaries; good extraction-room reference. | Likely too narrow/interior-heavy for third-person wave combat and NavMesh routes unless expanded with exterior props. | 3 |
 | `Assets/Synty/PolygonApocalypse/Scenes/Demo_Building_Interior_Dressing.unity` | Showcase of dressed building interiors such as shops, warehouses, houses, diners, apartments, industrial buildings, church, and market pieces. | Useful source for interior dressing and pickup/objective props. | Prop/interior showcase rather than a playable arena; weak for wave movement routes by itself. | 2 |
@@ -91,7 +91,7 @@ LS_Arena_01
 - Audio
 ```
 
-## Coursework002 Evidence Supported
+## What This Supports
 - Game story and logic: the arena represents an abandoned evacuation/checkpoint area where the survivor makes a final stand and escapes after wave 5.
 - Game mechanics: the space supports JU TPS movement, aiming, shooting, reload, cover use, pickup collection, and extraction.
 - Game AI: multiple approach lanes support fist-based melee, knife-based melee, and ranged enemy behaviours.

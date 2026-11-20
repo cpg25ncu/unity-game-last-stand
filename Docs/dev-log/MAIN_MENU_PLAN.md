@@ -131,7 +131,7 @@ No scene changes were needed for this fix.
 - Complex animated menu transitions.
 - New gameplay systems.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - UI evidence: project now has an initial main menu and visible controls.
 - Game logic evidence: Start Game leads into the final Last Stand wave scene.
 - Video/live demo evidence: the project can be introduced from a complete menu flow.

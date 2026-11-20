@@ -43,8 +43,8 @@ The Unity screenshot tool did not clearly composite the Screen Space Overlay HUD
 
 `LastStandHudController.cs` was not changed in this task.
 
-## Coursework/Video Relevance
-The HUD now presents Coursework002 UI/statistics evidence more clearly for the final video and live demo. Wave, enemies remaining, health, kills, score, time, FPS, and objective text are easier to read without adding new systems or blocking the player view.
+## Demo Relevance
+The HUD now presents UI and statistics more clearly for the final video and live demo. Wave, enemies remaining, health, kills, score, time, FPS, and objective text are easier to read without adding new systems or blocking the player view.
 
 ## Task 24R Compact HUD Fix
 The first HUD polish pass was too large in practice. Task 24R reduced the stats panel, objective banner, and font sizes so the HUD remains readable without dominating the gameplay view.
