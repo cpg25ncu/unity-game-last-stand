@@ -117,7 +117,7 @@ This confirms the intended risk-reward pickup loop works: defeat enemies, move t
 - Pickup interaction with the player needs a manual Play Mode confirmation.
 - If JU TPS pickup prefabs require additional scene-level manager setup, that should be documented and handled separately without editing JU TPS source assets.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - Game mechanics: defeated enemies can generate health/ammo recovery opportunities.
 - Content generation: pickups are generated dynamically from enemy defeat rather than placed as fixed resources.
 - C# code quality: drop table, dropper, and lifecycle event responsibilities are separated.

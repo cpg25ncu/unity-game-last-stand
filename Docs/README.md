@@ -24,10 +24,6 @@ Written while the game was being built. Each plan was drafted before its system 
 | Playtesting and balance | [FULL_PLAYTEST_AUDIT](dev-log/FULL_PLAYTEST_AUDIT.md), [FINAL_GAMEPLAY_PACING](dev-log/FINAL_GAMEPLAY_PACING.md), [POST_PACING_AUDIT](dev-log/POST_PACING_AUDIT.md), [JUTPS_AUDIO_ASSERTION_FIX](dev-log/JUTPS_AUDIO_ASSERTION_FIX.md) |
 | Postponed features | [MINIMAP_AUDIT](dev-log/MINIMAP_AUDIT.md), [REVIVE_SYSTEM_FEASIBILITY](dev-log/REVIVE_SYSTEM_FEASIBILITY.md) |
 
-## [`coursework/`](coursework): submission material
-
-Assessment mapping, report notes, the video demo script and the release and delivery checklists written for the original university submission.
-
 ## [`media/`](media)
 
 The screenshots and GIF used in the root README. They were captured from the gameplay recordings.

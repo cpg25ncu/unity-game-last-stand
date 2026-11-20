@@ -7,13 +7,13 @@
 - Confirmed active scene: Assets/Scenes/SampleScene.unity.
 - Confirmed build settings currently reference JU TPS demo scenes.
 - Created custom working area under Assets/_LastStand.
-- Created Coursework002 documentation foundation under Docs.
+- Created project documentation foundation under Docs.
 - No third-party source assets or demo prefabs were modified.
 
 ## 2026-05-06 18:02 +01:00 - Clean Scaffold Baseline
 - Confirmed current branch: main.
 - Confirmed Unity .gitignore already exists and covers generated Unity folders/files.
-- Created root README.md describing Last Stand, coursework context, Unity version, asset strategy, planned custom systems, documentation, and Git workflow.
+- Created root README.md describing Last Stand, project context, Unity version, asset strategy, planned custom systems, documentation, and Git workflow.
 - Updated scaffold documentation only; no gameplay implementation was started.
 - Current active scene remains Assets/Scenes/SampleScene.unity.
 - Build settings still reference JU TPS demo scenes and will need replacing when the final Last Stand scene is ready.
@@ -25,7 +25,7 @@
 - Created `Docs/dev-log/JUTPS_INTEGRATION_GUIDE.md` before scene creation or gameplay implementation.
 - Documented that JU TPS is the gameplay foundation for controller, camera, weapon handling, aiming, shooting, reload, inventory, health/damage, animation, ragdoll, and AI foundations.
 - Documented that POLYGON Apocalypse remains environment/map/prop content during core development.
-- Documented that custom Coursework002 work belongs under `Assets/_LastStand` and should extend or integrate with JU TPS rather than replacing it.
+- Documented that custom Last Stand work belongs under `Assets/_LastStand` and should extend or integrate with JU TPS rather than replacing it.
 - Confirmed this task is documentation-only: no gameplay systems, custom scene, Build Settings change, or third-party source asset edits were made.
 
 ## Next Planned Task
@@ -209,7 +209,7 @@
 
 ## 2026-05-07 00:50 +01:00 - Task 5 Last Stand Enemy Variant Wrappers
 - Inspected the JU TPS AI Attack example at `Assets/Julhiecio TPS Controller/Demos/Demo Scenes/AI/Examples/Attack/AI Attack Example.unity`.
-- Found the configured enemy instances matching Coursework001 terminology: `AI Sample Attack Punch`, `AI Sample Attack Melee`, and `AI Sample Attack Gun`.
+- Found the configured enemy instances matching the design document's terminology: `AI Sample Attack Punch`, `AI Sample Attack Melee`, and `AI Sample Attack Gun`.
 - Created project-owned wrappers under `Assets/_LastStand/Prefabs/Enemies`:
   - `Enemy_FistMelee_JUTPS.prefab` from `AI Sample Attack Punch`, with `ItemToEquipOnStart = -1`.
   - `Enemy_KnifeMelee_JUTPS.prefab` from `AI Sample Attack Melee`, with `ItemToEquipOnStart = 1` and a right-hand Katana `MeleeWeapon`.
@@ -224,7 +224,7 @@
 - Validated `Enemy_FistMelee_JUTPS.prefab` in `LS_Arena_01`.
 - Fist enemy moved toward `Player_JUTPS` and applied unarmed melee damage, reducing player health from `400` to `0` during Play Mode validation.
 - Validated `Enemy_KnifeMelee_JUTPS.prefab` in `LS_Arena_01`.
-- Knife enemy kept the JU TPS AI Attack demo's configured Katana blade setup. This represents the Coursework001 knife-based melee role as an armed close-range blade enemy, and weapon references should not be changed unless a functional error appears.
+- Knife enemy kept the JU TPS AI Attack demo's configured Katana blade setup. This represents the design document's knife-based melee role as an armed close-range blade enemy, and weapon references should not be changed unless a functional error appears.
 - Knife enemy close-range validation confirmed blade melee damage, reducing player health from `400` to `0`.
 - Safe scene-instance fix applied: the Attack example AI `Target` field was assigned to `Player_JUTPS` on test instances because the demo-scene target reference becomes `null` in `LS_Arena_01`.
 - Final saved scene state keeps both melee test enemies disabled under `_Systems/AI_Test/MeleeVariant_Test`.
@@ -582,16 +582,16 @@
 
 ## 2026-05-09 15:32 +01:00 - Task 21 Final Release-Readiness Audit
 - Reviewed existing project evidence, documentation logs, and project-owned file inventory.
-- Created `Docs/coursework/FINAL_READINESS_AUDIT.md`.
+- Created a final readiness audit document.
 - Confirmed the implemented feature set includes arena, JU TPS player/camera/UI, HUD, NavMesh, three enemy variants, EnemyDefinition/WaveDefinition assets, SpawnPointGroup, SpawnDirector, WaveManager, target binding, lifecycle reporting, StatsManager, GameFlowManager, ExtractionObjective, PlayerDeathMonitor, enemy death drops, and end-screen/restart foundation.
-- Mapped the current implementation to Coursework002 evidence areas.
-- Classified remaining risks by severity and noted whether they block submission.
+- Mapped the current implementation to the planned feature areas.
+- Classified remaining risks by severity and noted whether they block release.
 - Added recommended video and live demo routes.
 - Added release checklist and next-task recommendations.
 - Documentation-only update; no gameplay scripts, prefabs, scenes, wave assets, ProjectSettings, Packages, Build Settings, or third-party assets were modified.
 
 ## Next Planned Task
-- Prepare the final video demo script and recording plan, then confirm GitHub/release/submission packaging.
+- Prepare the final video demo script and recording plan, then confirm GitHub release packaging.
 
 ## 2026-05-09 23:56 +01:00 - Task 22B Enemy Count HUD Semantics
 - Updated `LastStandStatsManager` to track `enemiesDefeatedThisWave`.
@@ -659,7 +659,7 @@
 - Searched JU TPS, JUTPS Addons, and Last Stand project-owned folders for minimap, radar, compass, blip, marker, map, and navigation terms.
 - Inspected candidate related assets including `AI Alert Indicator.prefab`, `JU_AiAlert.cs`, `InfoIcon.prefab`, and `HitMarkerEffect.cs`.
 - Found no ready-made JU TPS/JUTPS Addons minimap or radar system.
-- Documented that a full minimap would require a new project-owned camera/render texture/layer/blip/runtime-spawn tracking system and is not recommended before submission.
+- Documented that a full minimap would require a new project-owned camera/render texture/layer/blip/runtime-spawn tracking system and is not recommended before release.
 - Documentation-only update; no scripts, scenes, prefabs, ProjectSettings, Packages, JU TPS source assets, JUTPS Addons assets, or Synty assets were modified.
 
 ## Next Planned Task
@@ -798,33 +798,33 @@
 - Manual full-run check from Wave 5 clear to visible marker, extraction trigger entry, victory screen, and `R` restart.
 
 ## 2026-05-10 22:30 +01:00 - Task 25 Final Video Demo Script
-- Created `Docs/coursework/VIDEO_DEMO_SCRIPT.md`.
-- Planned a 9-11 minute Coursework002 video route with a 12 minute maximum.
+- Created a video demo script.
+- Planned a 9-11 minute video route with a 12 minute maximum.
 - Covered title/game overview, story, main menu, controls, combat, HUD/statistics, enemy AI, wave generation, enemy drops, victory/failure, GitHub/code evidence, external assets, and conclusion.
 - Added a shot checklist, 10-minute timeline, backup extraction/victory route, and Q&A preparation.
 - This was a docs-only task; no scenes, scripts, prefabs, assets, ProjectSettings, Packages, or gameplay systems were changed.
 
 ## Next Planned Task
-- Record the final demo using `Docs/coursework/VIDEO_DEMO_SCRIPT.md`, then create the final GitHub release/submission package.
+- Record the final demo using then create the final GitHub release package.
 
 ## 2026-05-10 22:50 +01:00 - Task 26 Release and Delivery Checklist
-- Created `Docs/coursework/RELEASE_AND_DELIVERY_CHECKLIST.md`.
+- Created a release and delivery checklist.
 - Documented the GitHub repository, `main` branch, latest checked commit, final scenes, and final validation checklist.
-- Recommended GitHub release tag `v1.0.1` and title `Last Stand Coursework002 Final Build`.
-- Documented build/package delivery options, third-party asset dependency notes, video upload checks, final PDF contents, known limitations, and final pre-submission checklist.
+- Recommended GitHub release tag `v1.0.1` and title `Last Stand`.
+- Documented build/package delivery options, third-party asset dependency notes, video upload checks, final delivery contents, known limitations, and final pre-release checklist.
 - Updated `README.md` with final scene flow, implemented systems, release target, and references to the delivery checklist/video script.
 - This was a docs-only task; no gameplay scripts, scenes, prefabs, assets, ProjectSettings, Packages, or third-party source folders were changed.
 
 ## Next Planned Task
-- Use the GitHub release `v1.0.1`, record/upload the final video from that release version, and prepare the final PDF submission.
+- Use the GitHub release `v1.0.1`, record/upload the final video from that release version, and prepare the final delivery.
 
-## 2026-05-10 23:10 +01:00 - Task 25R Video Script Marking Alignment
-- Updated `Docs/coursework/VIDEO_DEMO_SCRIPT.md` for stronger Coursework002 marking alignment.
+## 2026-05-10 23:10 +01:00 - Task 25R Video Script Alignment
+- Updated the video demo script for stronger feature coverage.
 - Added a dedicated animation section covering player movement, aiming/shooting/reload, enemy chase/attack, ranged attack, and death behaviour.
 - Added explicit source-page shots for JU TPS, POLYGON Apocalypse/Synty, and Unity AI Navigation.
 - Strengthened the HUD/statistics section with Unity Canvas, Canvas Scaler, anchored layout, Full HD-style reference resolution, and PC 16:9 scope.
 - Updated GitHub wording to show an actual release version placeholder before final tag replacement rather than future-tense release language.
-- Added an assessment coverage reminder table and expanded Q&A preparation.
+- Added a feature coverage reminder table and expanded Q&A preparation.
 - This was a docs-only task; no scenes, scripts, prefabs, assets, ProjectSettings, Packages, or gameplay systems were changed.
 
 ## Next Planned Task

@@ -64,7 +64,7 @@ After Task 15.6, the user manually validated real player death during normal gam
 - Recheck full win and fail flows in the same final playtest build.
 - Manually press `R` on the failed end screen to confirm the scene reload path in the Game view.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - Game mechanics: the game can now enter a failure state when the player dies.
 - UI/statistics: HUD objective reflects failure state.
 - C# code quality: player-death monitoring is separated from game-flow state and HUD presentation.

@@ -13,7 +13,7 @@
 
 Last Stand is a single-player survival shooter set in a post-apocalyptic city checkpoint. Each wave brings more enemies and new enemy types: fist brawlers first, then blade wielders, then gunmen who shoot from range. Kills can drop health or ammo. Clear the fifth wave and an extraction marker appears. Reach it to win, or go down trying.
 
-It was built as the final project for a university Game and Mobile App Development module (CMP-6056B, 2026). The focus was on **designing the survival game loop and the systems behind it** on top of an existing third-person shooter foundation.
+The project focuses on **designing the survival game loop and the systems behind it** on top of an existing third-person shooter foundation.
 
 ## Screenshots
 

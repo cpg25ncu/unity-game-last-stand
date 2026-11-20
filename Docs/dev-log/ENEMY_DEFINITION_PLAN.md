@@ -25,7 +25,7 @@ This task only adds data and inspector-friendly C# types. It does not implement 
 - `KnifeMelee`
 - `Ranged`
 
-These names match the Coursework001 enemy design while allowing implementation through stable JU TPS AI Attack example wrappers.
+These names match the original enemy design while allowing implementation through stable JU TPS AI Attack example wrappers.
 
 ## Created EnemyDefinition Assets
 
@@ -53,7 +53,7 @@ Wave data uses:
 
 This preserves the EnemyDefinition layer as the source of enemy prefab/configuration references while allowing wave data to describe progression and enemy composition.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - Game AI: the three validated enemy behaviours are represented as explicit data.
 - Game mechanics: each role has scoring, wave introduction, and max-alive balancing values.
 - Content generation: future waves can use weighted enemy selection from definitions.

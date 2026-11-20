@@ -78,7 +78,7 @@ Full five-wave completion was not required for this task. Instead, debug validat
 - Extraction marker visual polish is still needed.
 - Real enemy-damage player death should be manually rechecked during a full combat pass.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - Game mechanics: player has a clear final extraction objective and victory state.
 - Level progression: completing the final wave unlocks extraction.
 - UI/statistics: HUD objective text reflects game flow.

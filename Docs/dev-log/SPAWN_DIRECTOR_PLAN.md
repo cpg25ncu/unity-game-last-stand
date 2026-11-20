@@ -86,7 +86,7 @@ This reduces the chance that a final ranged Wave 4 spawn fails because all range
 - Spawn point distances need hands-on gameplay validation.
 - Runtime-spawned enemies may need pooling later to avoid allocation spikes.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - Content generation: controlled enemy instantiation from data and spawn points.
 - Game AI: spawned enemies use JU TPS behaviours and runtime target binding.
 - Level progression: spawning can now be driven by wave number and role.

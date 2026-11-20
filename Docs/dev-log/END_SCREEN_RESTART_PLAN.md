@@ -102,7 +102,7 @@ The same layout is used for `You Died` and `Extraction Complete`. No restart inp
 - Save system.
 - Build Settings changes.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - UI evidence: visible end-state panel for victory and failure.
 - Game mechanics evidence: win/fail states are communicated clearly.
 - Video demo evidence: gameplay can end with an obvious conclusion and restart prompt.

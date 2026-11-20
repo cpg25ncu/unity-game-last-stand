@@ -114,7 +114,7 @@ Enemy death drops now respond to the same enemy defeat lifecycle as kills and sc
 - Health/ammo drops now use JU TPS demo pickup prefab references through `EnemyDropTable_Default.asset`.
 - Later validation should confirm dropped JU TPS pickups interact correctly with `Player_JUTPS`.
 
-## Coursework002 Evidence Supported
+## What This Supports
 - UI/statistics: provides data for wave, kills, score, enemy remaining, and survival timer HUD.
 - Game mechanics: connects enemy defeat to kills and score.
 - Level progression: statistics reflect the active wave and wave enemy counts.

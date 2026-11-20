@@ -223,7 +223,7 @@ Required changes:
 | Stats timer or wave counts reset incorrectly | Medium | Need resume/reset methods that do not wipe the whole run. |
 | PlayerDeathMonitor only reports once | Medium | Needs reset after revive. |
 | UI input conflicts | Low/Medium | New Input System pattern is already established in `EndScreenController`. |
-| Scope creep before submission | Medium | Revive touches multiple core systems late in the project. |
+| Scope creep before release | Medium | Revive touches multiple core systems late in the project. |
 
 ## Recommendation
 Implement a simplified version only if there is enough time for hands-on validation.
@@ -238,7 +238,7 @@ The feature is feasible, but it is not a tiny polish task. The safest version sh
 - move player back to `Player_Start`
 - keep `R` as full scene restart
 
-If time is tight, postpone revive and keep the existing failure/restart flow. The current submission is already acceptable without revive.
+If time is tight, postpone revive and keep the existing failure/restart flow. The current build is already acceptable without revive.
 
 ## Proposed Implementation Plan If Approved
 1. Implement `PlayerReviveHelper` with reflection-based calls to `RessurectCharacter()` and fallback `JUHealth.ResetHealth()`.

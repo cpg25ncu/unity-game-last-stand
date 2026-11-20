@@ -48,7 +48,7 @@ The original design and existing documentation frame Last Stand as a 5-wave surv
 ## Ranged Enemy Decision
 Wave 5 uses 1 ranged enemy, not 2. This keeps the ranged enemy important while respecting the playtest feedback that ranged pressure can become lethal quickly. Damage was not changed in this task.
 
-## Demo And Assessment Support
+## Demo Support
 The final scene is now easier to run directly in Play Mode, and a complete 5-wave pass should be more realistic during a demo or video recording. The shorter wave data keeps evidence for level progression, game AI variety, enemy spawning, player survival, drops, HUD statistics, and extraction victory without dragging the test session.
 
 ## Validation Result
