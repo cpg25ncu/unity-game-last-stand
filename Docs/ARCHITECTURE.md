@@ -27,7 +27,7 @@ This document explains how the custom Last Stand systems in `Assets/_LastStand/S
 ## System map
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph Data["ScriptableObject data"]
         WD[WaveDefinition x5]
         ED[EnemyDefinition x3]
