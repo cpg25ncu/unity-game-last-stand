@@ -22,7 +22,7 @@
 - Scene selection and arena planning for Assets/_LastStand/Scenes/LS_Arena_01.unity.
 
 ## 2026-05-06 18:16 +01:00 - Task 0D JU TPS Integration Guardrails
-- Created `Docs/JUTPS_INTEGRATION_GUIDE.md` before scene creation or gameplay implementation.
+- Created `Docs/dev-log/JUTPS_INTEGRATION_GUIDE.md` before scene creation or gameplay implementation.
 - Documented that JU TPS is the gameplay foundation for controller, camera, weapon handling, aiming, shooting, reload, inventory, health/damage, animation, ragdoll, and AI foundations.
 - Documented that POLYGON Apocalypse remains environment/map/prop content during core development.
 - Documented that custom Coursework002 work belongs under `Assets/_LastStand` and should extend or integrate with JU TPS rather than replacing it.
@@ -582,7 +582,7 @@
 
 ## 2026-05-09 15:32 +01:00 - Task 21 Final Release-Readiness Audit
 - Reviewed existing project evidence, documentation logs, and project-owned file inventory.
-- Created `Docs/FINAL_READINESS_AUDIT.md`.
+- Created `Docs/coursework/FINAL_READINESS_AUDIT.md`.
 - Confirmed the implemented feature set includes arena, JU TPS player/camera/UI, HUD, NavMesh, three enemy variants, EnemyDefinition/WaveDefinition assets, SpawnPointGroup, SpawnDirector, WaveManager, target binding, lifecycle reporting, StatsManager, GameFlowManager, ExtractionObjective, PlayerDeathMonitor, enemy death drops, and end-screen/restart foundation.
 - Mapped the current implementation to Coursework002 evidence areas.
 - Classified remaining risks by severity and noted whether they block submission.
@@ -798,17 +798,17 @@
 - Manual full-run check from Wave 5 clear to visible marker, extraction trigger entry, victory screen, and `R` restart.
 
 ## 2026-05-10 22:30 +01:00 - Task 25 Final Video Demo Script
-- Created `Docs/VIDEO_DEMO_SCRIPT.md`.
+- Created `Docs/coursework/VIDEO_DEMO_SCRIPT.md`.
 - Planned a 9-11 minute Coursework002 video route with a 12 minute maximum.
 - Covered title/game overview, story, main menu, controls, combat, HUD/statistics, enemy AI, wave generation, enemy drops, victory/failure, GitHub/code evidence, external assets, and conclusion.
 - Added a shot checklist, 10-minute timeline, backup extraction/victory route, and Q&A preparation.
 - This was a docs-only task; no scenes, scripts, prefabs, assets, ProjectSettings, Packages, or gameplay systems were changed.
 
 ## Next Planned Task
-- Record the final demo using `Docs/VIDEO_DEMO_SCRIPT.md`, then create the final GitHub release/submission package.
+- Record the final demo using `Docs/coursework/VIDEO_DEMO_SCRIPT.md`, then create the final GitHub release/submission package.
 
 ## 2026-05-10 22:50 +01:00 - Task 26 Release and Delivery Checklist
-- Created `Docs/RELEASE_AND_DELIVERY_CHECKLIST.md`.
+- Created `Docs/coursework/RELEASE_AND_DELIVERY_CHECKLIST.md`.
 - Documented the GitHub repository, `main` branch, latest checked commit, final scenes, and final validation checklist.
 - Recommended GitHub release tag `v1.0.1` and title `Last Stand Coursework002 Final Build`.
 - Documented build/package delivery options, third-party asset dependency notes, video upload checks, final PDF contents, known limitations, and final pre-submission checklist.
@@ -819,7 +819,7 @@
 - Use the GitHub release `v1.0.1`, record/upload the final video from that release version, and prepare the final PDF submission.
 
 ## 2026-05-10 23:10 +01:00 - Task 25R Video Script Marking Alignment
-- Updated `Docs/VIDEO_DEMO_SCRIPT.md` for stronger Coursework002 marking alignment.
+- Updated `Docs/coursework/VIDEO_DEMO_SCRIPT.md` for stronger Coursework002 marking alignment.
 - Added a dedicated animation section covering player movement, aiming/shooting/reload, enemy chase/attack, ranged attack, and death behaviour.
 - Added explicit source-page shots for JU TPS, POLYGON Apocalypse/Synty, and Unity AI Navigation.
 - Strengthened the HUD/statistics section with Unity Canvas, Canvas Scaler, anchored layout, Full HD-style reference resolution, and PC 16:9 scope.

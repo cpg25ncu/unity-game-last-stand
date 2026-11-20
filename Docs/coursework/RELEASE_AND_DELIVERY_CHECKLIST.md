@@ -1,7 +1,7 @@
 # Release and Delivery Checklist
 
 ## Repository
-- GitHub repository URL: https://github.com/liutongyaocn-web/Game-Final-Project
+- GitHub repository URL: https://github.com/cpg25ncu/unity-game-last-stand
 - Branch: `main`
 - Latest checked commit before this checklist: `08ff41c1c81893b3e34d7a894597901f4bfd20b9`
 - Confirm the repository is private or that access is handled appropriately for marking.
@@ -103,7 +103,7 @@ If sharing the Unity project:
 The PDF should contain:
 - Student name / ID if required.
 - Game title: `Last Stand`.
-- GitHub repository link: https://github.com/liutongyaocn-web/Game-Final-Project
+- GitHub repository link: https://github.com/cpg25ncu/unity-game-last-stand
 - GitHub release link for `v1.0.1`.
 - Video demo link.
 - Optional playable build link.

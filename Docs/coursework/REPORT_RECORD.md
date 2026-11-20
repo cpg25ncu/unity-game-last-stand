@@ -54,7 +54,7 @@ Working evidence record for CMP-6056B / CMP-7042B Coursework002. Update this con
 - This improves evidence clarity for level progression, wave spawning, enemy AI approach routes, pickup risk/reward design, and video demonstration.
 
 ## 8. GitHub/Version Control Evidence
-- Repository: https://github.com/liutongyaocn-web/Game-Final-Project
+- Repository: https://github.com/cpg25ncu/unity-game-last-stand
 - Current observed branch: `main`.
 - Commit style target: Conventional Commit messages such as `docs(cw002): ...`, `feat(waves): ...`, `feat(ui): ...`.
 - Current observation: imported assets/project settings are uncommitted from asset import work; do not mix future gameplay commits with unrelated changes.
