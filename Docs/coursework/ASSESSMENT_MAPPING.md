@@ -24,9 +24,9 @@
 - Remaining risks are acceptable for submission if documented and demonstrated carefully: full Wave 5 extraction validation, victory-state restart, ranged feel, possible NavMesh stuck spots, plain HUD visuals, and third-party asset delivery.
 - Task 25B addressed a blocking Wave 4 progression risk by making wave spawning retry failed spawns instead of consuming queued enemies.
 - Task 25D added a visible extraction marker and HUD distance prompt so the final objective is easier to find once unlocked.
-- `Docs/VIDEO_DEMO_SCRIPT.md` now maps the implemented features into a 9-11 minute recording route with shot checklist, backup extraction demonstration plan, and Q&A preparation.
-- `Docs/RELEASE_AND_DELIVERY_CHECKLIST.md` now defines the final GitHub release tag, release notes expectations, build/package guidance, video upload checks, and final PDF contents.
-- Task 25R strengthened `Docs/VIDEO_DEMO_SCRIPT.md` with direct marking alignment: animation evidence, external asset source-page shots, Canvas Scaler/screen-size evidence, GitHub release-page wording, and an assessment coverage table.
+- `Docs/coursework/VIDEO_DEMO_SCRIPT.md` now maps the implemented features into a 9-11 minute recording route with shot checklist, backup extraction demonstration plan, and Q&A preparation.
+- `Docs/coursework/RELEASE_AND_DELIVERY_CHECKLIST.md` now defines the final GitHub release tag, release notes expectations, build/package guidance, video upload checks, and final PDF contents.
+- Task 25R strengthened `Docs/coursework/VIDEO_DEMO_SCRIPT.md` with direct marking alignment: animation evidence, external asset source-page shots, Canvas Scaler/screen-size evidence, GitHub release-page wording, and an assessment coverage table.
 - Recommended evidence priority is now video/demo clarity rather than major new implementation.
 
 

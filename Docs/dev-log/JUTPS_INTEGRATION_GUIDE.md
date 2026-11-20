@@ -93,12 +93,12 @@ The map itself will be manually selected/cropped from POLYGON Apocalypse demo co
 
 ## Documentation Rules
 Every feature task must update:
-- `Docs/REPORT_RECORD.md`
+- `Docs/coursework/REPORT_RECORD.md`
 - `Docs/DEVELOPMENT_LOG.md`
 - `Docs/TEST_LOG.md`
 - `Docs/AI_USAGE_LOG.md`
 
-Update `Docs/ASSESSMENT_MAPPING.md` when a feature provides evidence for a marking criterion.
+Update `Docs/coursework/ASSESSMENT_MAPPING.md` when a feature provides evidence for a marking criterion.
 
 ## Git Rules
 - Do not use `git add .`.

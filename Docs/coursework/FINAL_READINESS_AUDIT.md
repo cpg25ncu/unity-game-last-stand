@@ -155,7 +155,7 @@ An extraction marker and distance prompt were added after manual testing showed 
 This is a low-risk clarity improvement, not a minimap or new objective system. Before final recording, manually complete Wave 5 and confirm the marker guides the player to the trigger, the victory screen appears, and `R` restart works from victory.
 
 ## Final Video Demo Script Note
-`Docs/VIDEO_DEMO_SCRIPT.md` now provides the final Coursework002 recording plan. It targets a 9-11 minute video, with a hard maximum of 12 minutes.
+`Docs/coursework/VIDEO_DEMO_SCRIPT.md` now provides the final Coursework002 recording plan. It targets a 9-11 minute video, with a hard maximum of 12 minutes.
 
 The plan covers:
 - story and game logic
@@ -171,7 +171,7 @@ The plan covers:
 It also includes a backup route for demonstrating extraction through the debug path if a full Wave 5 run takes too long during recording.
 
 ## Task 25R Marking Alignment Update
-`Docs/VIDEO_DEMO_SCRIPT.md` was strengthened against the Coursework002 marking criteria.
+`Docs/coursework/VIDEO_DEMO_SCRIPT.md` was strengthened against the Coursework002 marking criteria.
 
 The final recording plan now explicitly includes:
 - a dedicated animation section for player/enemy movement, combat, reload, attack, hit/death behaviour, and JU TPS animation-source evidence
@@ -182,7 +182,7 @@ The final recording plan now explicitly includes:
 - Q&A prompts for animation, screen-size support, third-party assets, postponed minimap/revive work, and release-version evidence
 
 ## Release and Delivery Checklist Note
-`Docs/RELEASE_AND_DELIVERY_CHECKLIST.md` now records the final delivery process:
+`Docs/coursework/RELEASE_AND_DELIVERY_CHECKLIST.md` now records the final delivery process:
 - GitHub repository and branch
 - final release tag `v1.0.1`
 - release title `Last Stand Coursework002 Final Build`

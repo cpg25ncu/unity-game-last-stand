@@ -1,15 +1,20 @@
 ﻿# Last Stand Custom Project Area
 
-All original Coursework002 implementation work lives under `Assets/_LastStand`.
+All original Last Stand work lives under `Assets/_LastStand`. Third-party assets stay in their imported folders and are never edited directly:
 
-Third-party assets are referenced from their imported folders but should not be edited directly:
 - `Assets/Julhiecio TPS Controller`
 - `Assets/JUTPS Addons`
 - `Assets/Synty`
 
-Planned structure:
-- `Scripts`: custom gameplay systems, organised by responsibility.
-- `ScriptableObjects`: wave, enemy, weapon, pickup, and game-balance data.
-- `Prefabs`: wrapper prefabs and custom gameplay prefabs.
-- `Scenes`: Last Stand scenes, starting with `LS_Arena_01.unity`.
-- `Tests`: Unity test assets for custom systems where practical.
+These folders are not included in the repository. See the root [README](../../README.md#running-the-project).
+
+## Structure
+
+| Folder | Contents |
+|---|---|
+| `Scenes` | `LS_MainMenu.unity` (entry scene) and `LS_Arena_01.unity` (gameplay arena with baked NavMesh) |
+| `Scripts` | Custom gameplay systems, one folder and namespace per responsibility: `AI`, `GameFlow`, `Pickups`, `Spawning`, `Stats`, `UI`, `Waves` |
+| `ScriptableObjects` | Enemy definitions, wave definitions and the enemy drop table |
+| `Prefabs/Enemies` | Project-owned wrapper prefabs for the fist, knife and ranged enemies |
+
+See [Docs/ARCHITECTURE.md](../../Docs/ARCHITECTURE.md) for how the systems fit together.
